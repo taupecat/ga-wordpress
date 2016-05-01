@@ -1,0 +1,77 @@
+## Lesson 1: Introduction to WordPress
+
+## Exercise 1: Installing WordPress
+
+## User Management (https://make.wordpress.org/training/handbook/user-lessons/user-management/)
+
+## Writing a Post
+
+* Editor
+* Assigning Taxonomies
+
+## Writing a Page
+
+## Managing Media (https://make.wordpress.org/training/handbook/user-lessons/managing-media/)
+
+## Managing Menus (https://make.wordpress.org/training/handbook/user-lessons/managing-menus/)
+
+## Managing Widgets (https://make.wordpress.org/training/handbook/user-lessons/managing-widgets/)
+
+## Using a Static Page as Your Front Page
+
+## Managing Comments (https://make.wordpress.org/training/handbook/user-lessons/managing-comments/)
+
+## Users and roles: https://make.wordpress.org/training/handbook/user-lessons/user-management/
+
+* Never use "admin" as a username
+* Gravatars
+
+## Installing Themes
+
+* Default Themes
+* Theme Repository
+* Premium Theme Shops
+
+## Customizer
+
+* Site identity
+* Header image
+* Background image
+* Colors
+
+## Installing Plugins
+
+* Jetpack
+* Yoast SEO
+* Google Analytics
+* Contact Form 7
+* Sucuri Scanner
+* WP Super Cache
+* Advanced Custom Fields
+* WooCommerce
+	
+## Creating a Theme
+
+* Anatomy of a theme (https://make.wordpress.org/training/handbook/theme-school/anatomy-of-a-theme/)
+* Template Hierarchy (https://wphierarchy.com/)
+* Converting a static HTML page into a template
+* _s
+* Featured Image Support
+* Make it responsive
+* Creating a menu area
+* Creating a widget area
+
+## Creating a Plugin
+
+* Plugin boilerplate: http://wppb.io/
+* Create a custom post type with a custom taxonomy
+* Create a widget
+* Create a shortcode
+
+## Security
+
+## Where to go for help
+
+* Support forums
+* Meetups
+* WordCamps

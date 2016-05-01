@@ -1,0 +1,9 @@
+## Installation
+
+* MAMP (https://make.wordpress.org/training/handbook/theme-school/local-install/)
+	* Download MAMP from http://mamp.info
+* Create database
+* Download WordPress: https://wordpress.org/download/
+* Extract ZIP archive
+* Copy files into MAMP htdocs directory
+* 5 Minute Install

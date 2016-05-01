@@ -1,0 +1,50 @@
+# Lesson 1: Introduction to WordPress
+
+WordPress is a **Content Management System** (CMS): software that is designed to make it easier to publish content to the web.
+
+Other CMSes include: Drupal, Joomla!, Adobe Experience Manager, Sitecore
+
+Why WordPress? 26% of the internet: Easy to install, easy to maintain, easy to use, flexible.
+
+WordPress originally began as _just_ a blogging engine, but over time it grew to be a full-featured CMS.
+
+## WordPress.com versus WordPress.org (https://make.wordpress.org/training/handbook/user-lessons/high-level-overview/)
+
+* **WordPress.com:** Hosted platform; accounts are free, upgrades are paid; you can't install your own themes or plugins.
+* **WordPress.org:** Downloadable software you host on your own system; free to use (hosting fees vary); complete liberty to install themes and plugins.
+
+## Advantages of self-hosted WordPress:
+
+**Control.** From the very beginning, you choose where your site lives, what it looks like, and what it can do. Almost every web hosting service in the world supports WordPress, many of them offering one-click installation. If you become unhappy with your current host, you can easily pack up and move your site somewhere else.  
+**Flexibility.** Where WordPress.com offers a handful of themes, there are over 2,800 in the WordPress.org repository. When you want to add to the functionality of your WordPress site, there are over 36,000 plugins there as well, almost all of them free.  
+**Community.** Because WordPress has its roots in open source, there is a huge community of people contributing to its development and sharing their knowledge. You’ll find a multitude of blogs, forums and classes like this one devoted to helping users at all levels. And since WordPress is the most widely used CMS in the world, if you decide to hire a professional to help you, you’ll have no trouble finding one.  
+**A thriving marketplace.** While WordPress itself is free, open source software, an entire industry has sprung up around delivering services to WordPress site owners. You may choose to pay for these premium services for the support that they provide and the professionalism that they bring to their products. While there are many excellent free themes and plugins available on WordPress.org, their developers are under no obligation to keep them updated or provide any kind of customer support. The fact than many of them do is one of the great things about the WordPress community.
+
+## The Stack
+
+* **Linux:** The operating system that runs the server.
+* **Webserver:** Apache (in a LAMP system) or Nginx (in a LEMP system); the software that interprets requests from the browser, and returns the appropriate web page.
+* **PHP:** A scripting language that is used in the templating system and to talk to the database.
+* **MySQL:** The database that stores the contnt of your website, as well as many of the settings.
+
+## Post Types
+
+### Posts
+
+* Are date-based
+* Have categories and tags
+* Have featured images
+
+* Post Types
+	* Default (Posts, Pages) (https://make.wordpress.org/training/handbook/user-lessons/pages-vs-posts/)
+	* Special (Attachments, Revisions, Menu Items)
+	* Custom
+* Taxonomies
+	* Default (Categories, Tags) (https://make.wordpress.org/training/handbook/user-lessons/categories-vs-tags/)
+	* Custom
+
+### Pages
+
+* Intended for _perennial_ information (about page, contact info)
+* Can be nested into sub-pages (hierarchical)
+* Can have different templates
