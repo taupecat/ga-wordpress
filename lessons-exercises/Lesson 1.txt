@@ -8,6 +8,21 @@ Why WordPress? 26% of the internet: Easy to install, easy to maintain, easy to u
 
 WordPress originally began as _just_ a blogging engine, but over time it grew to be a full-featured CMS.
 
+## Sites that use WordPress:
+
+### Blogs
+
+* [Microsoft](https://blogs.microsoft.com/)
+* [Boing Boing](https://boingboing.net/)
+* [TechCrunch](http://techcrunch.com/)
+
+### Newspapers and Magazines
+
+* [Time](http://time.com/)
+* []
+
+### 
+
 ## WordPress.com versus WordPress.org (https://make.wordpress.org/training/handbook/user-lessons/high-level-overview/)
 
 * **WordPress.com:** Hosted platform; accounts are free, upgrades are paid; you can't install your own themes or plugins.
