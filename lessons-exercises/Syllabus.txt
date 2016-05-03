@@ -1,30 +1,24 @@
-## Lesson 1: Introduction to WordPress
+## Lesson 1: Howdy, WordPress!
 
-## Exercise 1: Installing WordPress
+## Lesson 2: Installing WordPress
 
-## User Management (https://make.wordpress.org/training/handbook/user-lessons/user-management/)
-
-## Writing a Post
-
-* Editor
-* Assigning Taxonomies
-
-## Writing a Page
-
-## Managing Media (https://make.wordpress.org/training/handbook/user-lessons/managing-media/)
-
-## Managing Menus (https://make.wordpress.org/training/handbook/user-lessons/managing-menus/)
-
-## Managing Widgets (https://make.wordpress.org/training/handbook/user-lessons/managing-widgets/)
-
-## Using a Static Page as Your Front Page
-
-## Managing Comments (https://make.wordpress.org/training/handbook/user-lessons/managing-comments/)
-
-## Users and roles: https://make.wordpress.org/training/handbook/user-lessons/user-management/
+### Security Basics
 
 * Never use "admin" as a username
 * Gravatars
+
+## Lesson 3: Working with WordPress
+
+* Writing a post
+	* Editor
+	* Assigning Taxonomies
+* Writing a Page
+* [Managing Media](https://make.wordpress.org/training/handbook/user-lessons/managing-media/)
+* [Managing Menus](https://make.wordpress.org/training/handbook/user-lessons/managing-menus/)
+* [Managing Widgets](https://make.wordpress.org/training/handbook/user-lessons/managing-widgets/)
+* Using a Static Page as Your Front Page
+* [Managing Comments](https://make.wordpress.org/training/handbook/user-lessons/managing-comments/)
+* [Users and roles](https://make.wordpress.org/training/handbook/user-lessons/user-management/)
 
 ## Installing Themes
 
@@ -41,6 +35,7 @@
 
 ## Installing Plugins
 
+* Akismet
 * Jetpack
 * Yoast SEO
 * Google Analytics
