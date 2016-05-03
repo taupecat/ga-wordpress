@@ -1,4 +1,4 @@
-# Lesson 1: Introduction to WordPress
+# Lesson 1: Howdy, WordPress!
 
 WordPress is a **Content Management System** (CMS): software that is designed to make it easier to publish content to the web.
 
