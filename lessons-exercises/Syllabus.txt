@@ -59,9 +59,9 @@
 ## Creating a Plugin
 
 * Plugin boilerplate: http://wppb.io/
+* Create a shortcode
 * Create a custom post type with a custom taxonomy
 * Create a widget
-* Create a shortcode
 
 ## Security
 
