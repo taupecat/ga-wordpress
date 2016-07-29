@@ -1,0 +1,34 @@
+# Developing for WordPress
+
+In this two day bootcamp, we'll create a custom WordPress site from scratch, including building a custom theme and plugin.
+
+## Outcomes students will walk away with
+
+* Understanding WordPress architecture
+* Installing a professional WordPress development environment using tools such as Vagrant and Gulp.js
+* Creating a custom WordPress theme using a popular starter theme
+* Creating a custom WordPress plugin
+* Know how to debug WordPress problems
+* Understanding WordPress action hooks and filters
+* Working with the new WordPress API
+* Performing WordPress tasks from the command line
+* How to keep WordPress secure
+* How to hand off a WordPress project to a client
+
+## Prerequisites
+
+HTML, CSS, and basic PHP (or comparable server-side language). Access to GitHub. Please bring a laptop to class. This bootcamp is intended for developers and we will be digging into WordPress code.
+
+## Syllabus
+
+Lesson 1: A tour of the WordPress architecture
+
+Lesson 2: Creating a professional WordPress development environment
+
+Lesson 3: Building a custom theme using the "_s" starter theme
+
+Lesson 4: Building a custom plugin with action hooks and filters
+
+Lesson 5: Working with the WordPress API
+
+Lesson 6: Understanding WordPress security

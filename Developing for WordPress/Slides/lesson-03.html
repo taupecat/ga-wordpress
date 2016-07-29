@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>WordPress Bootcamp</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/rp3-light.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section id="title">
+					<h1>Lesson 3</h1>
+					<h2>Building a Theme</h2>
+				</section>
+
+				<section>
+
+					<section>
+						<h2>What is a theme?</h2>
+
+						<p>The theme is the presentation layer. Ideally, it should handle:</p>
+
+						<ul>
+							<li class="fragment">Fonts</li>
+							<li class="fragment">Colors</li>
+							<li class="fragment">Layouts</li>
+							<li class="fragment">Responsiveness</li>
+						</ul>
+					</section>
+
+					<section>
+
+						<h2>What is a theme <strong>not</strong>?</h2>
+
+						<p>A theme shouldn't manage data, or types of data, like:</p>
+
+						<ul>
+							<li class="fragment">Custom Post Types</li>
+							<li class="fragment">Custom Taxonomies</li>
+							<li class="fragment">User Management</li>
+						</ul>
+
+					</section>
+
+				</section>
+
+				<section>
+
+					<section>
+						<h2>Where to begin?</h2>
+
+						<p>There are three (sane) options.</p>
+					</section>
+
+					<section>
+						<h2>Child Themes</h2>
+
+						<ul>
+							<li class="fragment">Inherits the properties of another theme (the parent)</li>
+							<li class="fragment">Good starting point for beginners</li>
+							<li class="fragment">It's like theme development with a net</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Starter Themes</h2>
+
+						<ul>
+							<li class="fragment">Unstyled, bare bones</li>
+							<li class="fragment">Might contain UI elements of popular front-end frameworks</li>
+							<li class="fragment">Also contains common templates you need, plus other functionality</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Theme Frameworks</h2>
+
+						<ul>
+							<li class="fragment">Somewhere between the two</li>
+							<li class="fragment">Usually operate on a child theme model</li>
+							<li class="fragment">Give you additional functionality and often minimal styling</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Sass</h2>
+
+					<ul>
+						<li class="fragment">CSS Preprocessor</li>
+						<li class="fragment">Still CSS at its heart. Know the rules.</li>
+						<li class="fragment">Not the only preprocessor out there, but arguably most popular and "blessed" by WordPress</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Responsive Web Design</h2>
+
+					<ul>
+						<li class="fragment">Mopocalypse</li>
+						<li class="fragment"><a href="http://taupecat.github.io/responsify/">http://taupecat.github.io/responsify/</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Let's build a theme!</h2>
+
+					<ul>
+						<li class="fragment">Page templates</li>
+						<li class="fragment">Navigation menus</li>
+						<li class="fragment">Archives</li>
+						<li class="fragment">Single posts</li>
+						<li class="fragment">Sidebars and widgets</li>
+						<li class="fragment">WP_Query</li>
+					</ul>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
